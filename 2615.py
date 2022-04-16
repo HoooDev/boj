@@ -25,7 +25,7 @@ for i in range(19):
                                 no_winner.append(0)
                                 flag = 1
                                 break
-                            if arr[ni-di[d]*6][nj-di[d]*6] == 1:
+                            if arr[ni-di[d]*6][nj-dj[d]*6] == 1:
                                 no_winner.append(0)
                                 flag = 1
                                 break
@@ -51,7 +51,7 @@ for i in range(19):
                                 no_winner.append(0)
                                 flag = 1
                                 break
-                            if arr[ni-di[d]*6][nj-di[d]*6] == 2:
+                            if arr[ni-di[d]*6][nj-dj[d]*6] == 2:
                                 no_winner.append(0)
                                 flag = 1
                                 break

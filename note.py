@@ -1,42 +1,85 @@
-def bfs(y, x):
-    queue = []
-    queue.append((y, x))
-    visited[y][x] = 1
-    while queue:
-        cy, cx = queue.pop(0)
+ans = [0] + list(map(int, input().split()))
+cnt = 0
+score = [0]*11
+for a in range(1, 6):
+    if a == ans[1]:
+        score[1] = 1
+    else:
+        score[1] = 0
 
-        for dy, dx in [(-1, 0), (1, 0), (0, 1), (0, -1)]:
-            ny = cy + dy
-            nx = cx + dx
-            if 0 <= ny < N and 0 <= nx < N and arr[ny][nx] != 0:
-                queue.append((ny, nx))
+    for b in range(1, 6):
+        if b == ans[2]:
+            score[2] = 1
+        else:
+            score[2] = 0
+
+        for c in range(1, 6):
+            if a == b and a == c:
+                continue
+            if c == ans[3]:
+                score[3] = 1
+            else:
+                score[3] = 0
+
+            for d in range(1, 6):
+                if b == c and b == d:
+                    continue
+                if d == ans[4]:
+                    score[4] = 1
+                else:
+                    score[4] = 0
+
+                for e in range(1, 6):
+                    if c == d and c == e:
+                        continue
+                    if e == ans[5]:
+                        score[5] = 1
+                    else:
+                        score[5] = 0
+
+                    for f in range(1, 6):
+                        if d == e and d == f:
+                            continue
+                        if f == ans[6]:
+                            score[6] = 1
+                        else:
+                            score[6] = 0
+
+                        for g in range(1, 6):
+                            if e == f and e == g:
+                                continue
+                            if g == ans[7]:
+                                score[7] = 1
+                            else:
+                                score[7] = 0
+
+                            for h in range(1, 6):
+                                if f == g and f == h:
+                                    continue
+                                if h == ans[8]:
+                                    score[8] = 1
+                                else:
+                                    score[8] = 0
 
 
-N = int(input())
-arr = [list(map(int, input().split())) for _ in range(N)]
+                                for i in range(1, 6):
+                                    if g == h and g == i:
+                                        continue
+                                    if i == ans[9]:
+                                        score[9] = 1
+                                    else:
+                                        score[9] = 0
 
-max_n = 0
-for r in range(N):
-    for c in range(N):
-        if max_n < arr[r][c]:
-            max_n = arr[r][c]
+                                    for j in range(1, 6):
+                                        if h == i and h == j:
+                                            continue
+                                        if j == ans[10]:
+                                            score[10] = 1
+                                        else:
+                                            score[10] = 0
 
-n = 0  # n = 4
-ans = 1
-while n <= max_n:
-    visited = [[0] * N for _ in range(N)]
+                                        if sum(score) >= 5:
+                                            cnt += 1
 
-    yy, xx = 0, 0
-    cnt = 0
-    for ii in range(N):
-        for jj in range(N):
-            if arr[ii][jj] > n and visited[ii][jj] == 0:
-                yy = ii
-                xx = jj
-                bfs(yy, xx)
-                cnt += 1
-
-    if ans < cnt:
-        ans = cnt
-    n += 1
-print(ans)
+                                            continue
+print(cnt)
