@@ -1,5 +1,5 @@
 def choice_cows(n, k, m):
-    if n == k:
+    if k == M:
         cnt = 0
         for i in range(2, m+1):
             if m % i == 0:
@@ -7,12 +7,11 @@ def choice_cows(n, k, m):
         if cnt == 1:
             if m not in ans:
                 ans.add(m)
-    else:
-        for j in range(M):
-            if used[j] == 0:
-                used[j] = 1
-                choice_cows(n+1, k, cows[j]+m)
-                used[j] = 0
+    for j in range(n, N):
+        if used[j] == 0:
+            used[j] = 1
+            choice_cows(n+1, k+1, cows[j]+m)
+            used[j] = 0
 
 import sys
 
@@ -23,10 +22,11 @@ cows = list(map(int, sys.stdin.readline().split()))
 select_cow = [0] * M
 used = [0] * N
 
-choice_cows(0, M, 0)
 ans = set()
+choice_cows(0, 0, 0)
+
 
 if ans:
-    print(ans)
+    print(*sorted(list(ans)))
 else:
     print(-1)
