@@ -1,13 +1,12 @@
-def dfs(cnt):
-    if cnt == M:
-        print(*result)
+def recur(lev):
+    if lev == M:
+        print(*path)
         return
-
     for i in range(N):
-        result.append(i+1)
-        dfs(cnt + 1)
-        result.pop()
+        path.append(i+1)
+        recur(lev+1)
+        path.pop()
 
 N, M = map(int, input().split())
-result = []
-dfs(0)
+path = []
+recur(0)

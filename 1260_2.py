@@ -35,6 +35,7 @@ for i in range(0, len(node_lst), 2):
 for i in range(1, N+1):
     graph[i].sort()
 
+print(node_lst)
 dfs(V)
 print()
 bfs(V)

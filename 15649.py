@@ -1,17 +1,16 @@
-def dfs(cnt, M):
-    if cnt == M:
-        print(*result)
+def recur(lev):
+    if lev == M:
+        print(*path)
         return
     for i in range(N):
-        if visited[i] == False:
-            visited[i] = True
-            result.append(i+1)
-            dfs(cnt+1)
-            result.pop()
-            visited[i] = False
-
+        if visited[i] == 0:
+            visited[i] = 1
+            path.append(i+1)
+            recur(lev+1)
+            path.pop()
+            visited[i] = 0
 
 N, M = map(int, input().split())
-visited = [False] * N
-result = []
-dfs(0, M)
+path = []
+visited = [0] * N
+recur(0)

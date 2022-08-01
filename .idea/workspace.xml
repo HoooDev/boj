@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c25777fd-c58f-4af3-8df3-8abca6c62bfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/24390.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24390_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="ada7f4cf-85c6-4b3d-a0d3-30d94cea45d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/10158.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1021.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10816.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11660.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1260_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1302.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1427.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1436.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16918.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16918_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18258.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2309_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2504.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2504_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2504_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2799.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2799_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4540.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7568.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8911.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9333.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/boj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/boj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5014_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/5014_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1012.py" beforeDir="false" afterPath="$PROJECT_DIR$/1012.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1260_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/1260_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15649.py" beforeDir="false" afterPath="$PROJECT_DIR$/15649.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15651.py" beforeDir="false" afterPath="$PROJECT_DIR$/15651.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19699.py" beforeDir="false" afterPath="$PROJECT_DIR$/19699.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2839.py" beforeDir="false" afterPath="$PROJECT_DIR$/2839.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.py" beforeDir="false" afterPath="$PROJECT_DIR$/note.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +51,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
-  <component name="ProjectId" id="28uMUPA7LFYzw3NBkhusKNDAkOG" />
+  <component name="ProjectId" id="293tv0VXZlE0AwUgfzeTrv9YXYK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,16 +71,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="PyDebuggerOptionsProvider">
-    <option name="myPyQtBackend" value="pyside" />
-  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SSAFY_GH\boj" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.24390_2">
-    <configuration name="24390" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.19699">
+    <configuration name="1012" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="boj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,7 +89,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24390.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1012.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="24390_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10158" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="boj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24390_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10158.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,19 +119,61 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2573_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1260_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="boj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\SSAFY_GH\python39\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2573_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1260_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1260_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="boj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1260_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="19699" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="boj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19699.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,20 +184,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.24390_2" />
-        <item itemvalue="Python.24390" />
-        <item itemvalue="Python.2573_2" />
+        <item itemvalue="Python.19699" />
+        <item itemvalue="Python.1012" />
+        <item itemvalue="Python.1260_4" />
+        <item itemvalue="Python.1260_2" />
+        <item itemvalue="Python.10158" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c25777fd-c58f-4af3-8df3-8abca6c62bfd" name="Changes" comment="" />
-      <created>1652062034556</created>
+      <changelist id="ada7f4cf-85c6-4b3d-a0d3-30d94cea45d9" name="Default Changelist" comment="" />
+      <created>1652353825728</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652062034556</updated>
+      <updated>1652353825728</updated>
     </task>
     <servers />
   </component>
@@ -147,23 +219,61 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/24390.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/13335.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/24390_2.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/2504.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/9333.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/11660.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2839.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1021.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/18258.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/10158.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1260_4.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1012.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="visited" language="Python" />
-        <watch expression="time" language="Python" />
-        <watch expression="o" language="Python" />
-        <watch expression="q" />
+        <watch expression="arr" language="Python" />
       </configuration>
     </watches-manager>
   </component>

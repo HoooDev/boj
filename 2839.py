@@ -1,22 +1,13 @@
-def f(n):
-    cnt = 0
-
-    while n >= 0:
-        if n > 5:
-            n -= 5
-            cnt += 1
-        elif n >= 3:
-            n -= 3
-            cnt += 1
-        elif n == 0:
-            return cnt
-        elif n < 3:
-            return -1
-
-
-    return cnt
-
-
 N = int(input())
+ans = 0
 
-print(f(N))
+while N >= 0:
+    if N % 5 == 0:
+        ans += N // 5
+        print(ans)
+        break
+    N -= 3
+    ans += 1
+
+if N < 0:
+    print(-1)

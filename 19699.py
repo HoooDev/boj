@@ -1,34 +1,34 @@
-def choice_cows(n, k, m):
-    if n == k:
-        c = sum(select_cow)
+def choice_cow(n, k, m):
+    if n == M:
         cnt = 0
-        for i in range(2, c+1):
-            if c % i == 0:
+        for i in range(2, m+1):
+            if m % i == 0:
                 cnt += 1
-        if cnt == 1:
-            if c not in ans:
-                ans.append(c)
-    else:
-        for i in range(N):
-            if used[i] == 0:
-                used[i] = 1
-                select_cow[n] = cows[i]
-                choice_cows(n+1, k, m)
-                used[i] = 0
+        if cnt == 1 and (m not in ans):
+            ans.append(m)
+
+    for i in range(n, N):
+        if visited[i] == 0:
+            visited[i] = 1
+            choice_cow(n+1, k, cow_w[i] + m)
+            visited[i] = 0
+
 
 import sys
+input = sys.stdin.readline
 
+N, M = map(int, input().strip().split())
 
-N, M = map(int, sys.stdin.readline().split())
-cows = list(map(int, sys.stdin.readline().split()))
+cow_w = list(map(int, input().strip().split()))
+
+# print(cow_w)
 
 select_cow = [0] * M
-used = [0] * N
+visited = [0] * N
 ans = []
-choice_cows(0, M, N)
-ans.sort()
-
+choice_cow(0, 0, 0)
 if ans:
+    ans.sort()
     print(*ans)
 else:
     print(-1)
